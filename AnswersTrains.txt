@@ -1,0 +1,17 @@
+1) The function of a constructor is to initialize an object of that type.
+2) The advantages of polymorphism are reusing duplicated elements of code. For example, because both the wagon and the engine have an ID and a weight, they can both extend RollingStock.
+6) One advantage of using standard library collections is that the programmer can re-use code. Examples of this are standard search and sorting algorithms or file handling methods. Therefore, a programmer does not have to rewrite code that has already been written. The code that is contained in the library has been tested and is reliable.
+7) Two ways in which programming by a team differs from programming by an individual working alone. Individuals must be well versed in all aspects of the coding, whereas in teams there is specialization between programmers. In teams, there is information hiding to reduce module dependencies.
+8) 	i. The street name should be a String
+	ii. The building number should be an int
+	iii. The indication of business address should be a Boolean
+9) The Parcel class will need to change its destinationAddress and originAddress to both be a new Address, passing them a String, an int, and a Boolean, in order to make use of the new Address class
+10) In order to minimize the duplication of code, OriginAddress and DestinationAddress should extend Address. OriginAddress will have a Boolean that denotes whether the package was collected from the customer’s house or from the local post office. DestinationAddress will have a String of special instructions.
+11) 	i. mEngines array [Engine B, new Engine(9)]
+	ii. mEngineCount is 2
+	iii. mWagons array [C, new Wagon(214)]
+14) Having a getWeight() method in both the Train and Wagon classes does not cause a compiler error, even though the Train class does not inherit from the RollingStock class because the method is called from within the class.
+15)
+
+
+
