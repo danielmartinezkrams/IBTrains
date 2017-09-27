@@ -12,8 +12,9 @@
 	iii. mWagons array [C, new Wagon(214)]
 14) Having a getWeight() method in both the Train and Wagon classes does not cause a compiler error, even though the Train class does not inherit from the RollingStock class because the method is called from within the class.
 15) Instead of being declared as a static array, mWagons would be initialized as a linked list.
+17) A method to remove a particular wagon would be implemented by searching for the id of wagons within the LinkedList, and upon finding that wagon, removing it.
 18) An ArrayList would be appropriate to model the storage of parcels in a wagon
-
+19) The importance of style and naming conventions in code are the ability to share code with collaborators and have them be able to understand it, that large projects will be coded in a consistent style, the code can be understood without looking at each line, the code is easier to understand,
 
 
 

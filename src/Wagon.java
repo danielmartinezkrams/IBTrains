@@ -17,7 +17,7 @@ public class Wagon extends RollingStock{
     public double getWeight() {
         int returnWeight = 0;
         for(int i = 0; i < mParcelCount; i++){
-            returnWeight += mParcels[i].getWeight();
+            returnWeight += mParcels.get(i).getWeight();
         }
         return returnWeight + super.getWeight();
     }
