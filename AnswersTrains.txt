@@ -11,7 +11,11 @@
 	ii. mEngineCount is 2
 	iii. mWagons array [C, new Wagon(214)]
 14) Having a getWeight() method in both the Train and Wagon classes does not cause a compiler error, even though the Train class does not inherit from the RollingStock class because the method is called from within the class.
-15)
+15) Instead of being declared as a static array, mWagons would be initialized as a linked list.
+18) An ArrayList would be appropriate to model the storage of parcels in a wagon
+
+
+
 
 
 
